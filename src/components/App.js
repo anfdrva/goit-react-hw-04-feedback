@@ -23,9 +23,8 @@ export const App = () => {
       case "bad":
         setBad(bad + 1);
         break;
-      default: {
-        alert('There is no such option')
-      };
+      default:
+        console.log('There is no such option')
 
     }
   }
